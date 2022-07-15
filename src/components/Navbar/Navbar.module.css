@@ -1,0 +1,42 @@
+.navbar {
+     display: grid;
+     grid-template-columns: 1fr max-content;
+
+     background-color: rgba(0,0,0,0.5);
+
+     padding: 1% 10%;
+}
+.title h1 {
+     font-size: 32px;
+     height: 40px;
+}
+.cart {
+     width: max-content;
+     position: relative;
+
+     padding-top: 10px;
+     cursor: pointer;
+}
+
+.cartItems{
+     position: absolute;
+     display: block;
+     top: -25%;
+     right: 0%;
+
+     width: 25px;
+     height: 25px;
+
+     color: white;
+
+     background-color: blue;
+     border-radius: 50%;
+
+     font-weight: 400;
+     text-align: center;
+     
+}
+.cartRight {
+     position: relative;
+     text-align: right;
+}

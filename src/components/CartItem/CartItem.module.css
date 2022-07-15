@@ -1,0 +1,41 @@
+.image {
+     width: 100px;
+     height: 100px;
+}
+.image img {
+     width: 100%;
+}
+.item {
+     display: grid;
+     grid-template-columns: 0.5fr 2fr max-content;
+     margin: 2% auto;
+}
+.title {
+     font-size: 1.3rem;
+}
+.price {
+     font-weight: 500;
+     font-size: 1.1rem;
+     color: rgba(0,0,0,0.6);
+}
+.remove {
+     margin-top: 20px;
+     background-color: transparent;
+     color: rgba(255, 0, 0,1);
+     border: none;
+     padding-left: 0;
+     cursor: pointer;
+}
+.remove:active {
+     color: rgba(255,0,0,0.7);
+}
+.amount {
+     width: 30px;
+     display: grid;
+     text-align: center;
+}
+.pointer {
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+}
