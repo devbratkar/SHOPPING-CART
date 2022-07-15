@@ -7,7 +7,7 @@
      padding: 1% 10%;
 }
 .title h1 {
-     font-size: 32px;
+     font-size: 2rem;
      height: 40px;
 }
 .cart {
@@ -39,4 +39,14 @@
 .cartRight {
      position: relative;
      text-align: right;
+}
+
+@media (max-width: 768px) {
+     .navbar {
+          grid-template-columns: 1fr 1fr;
+     }
+     .cart {
+          padding: 20px;
+          float: right;
+     }
 }

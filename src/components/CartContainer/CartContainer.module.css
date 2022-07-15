@@ -14,7 +14,7 @@
      padding: 2% 0.8%;
 
      display: grid;
-     grid-template-columns: 1fr 0.2fr;
+     grid-template-columns: 1fr 0.5fr;
 }
 .clearCartBtn {
      padding: 5%;
@@ -37,4 +37,14 @@
 .clearCartBtn button:active {
      color: rgba(255,0,0,0.7);
      border: 3px solid rgba(255,0,0,0.7);
+}
+@media (max-width: 768px) {
+     .total {
+          grid-template-columns: 1fr 1fr;
+
+     }
+     .containerHeading {
+          font-size: 1.1rem
+     }
+     
 }
