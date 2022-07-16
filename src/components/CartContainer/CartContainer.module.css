@@ -2,7 +2,7 @@
      min-height: 300px;
      padding: 1% 5%;
      border-radius: 0.5rem;
-     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+     box-shadow: 0 0 2px 0px rgba(0,0,0,0.5);
 }
 .containerHeading {
      font-size: 1.3rem;

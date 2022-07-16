@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { removeItem, increase, decrease } from '../../features/cart/cartSlice';
 
 
-const CartItem = ({ item, amount }) => {
+const CartItem = ({ item }) => {
   const dispatch = useDispatch();
 
   const increaseQuantity = () => {

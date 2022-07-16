@@ -6,6 +6,8 @@ const initialState = {
      amount: 4,
      total: 0,
      isLoading: true,
+     cartPaymentGateway: false,
+     paymentRoute: false,
 }
 
 const cartSlice = createSlice({
@@ -36,12 +38,16 @@ const cartSlice = createSlice({
           updateTotal: (state,action) => {
                const totalPrice = action.payload
                state.total = Math.floor(totalPrice * 100) /100
+          },
+          openPaymentGateway: (state,action)=> {
+               state.cartPaymentGateway = action.payload;
+          },
+          payment: (state) => {
+               state.paymentRoute = true
           }
      }
 })
 
-// console.log(cartSlice);
-
-export const { clearCart, removeItem, increase, decrease, updateTotal } = cartSlice.actions
+export const { clearCart, removeItem, increase, decrease, updateTotal, openPaymentGateway, payment} = cartSlice.actions
 
 export default cartSlice.reducer
