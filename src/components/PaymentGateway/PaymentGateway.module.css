@@ -13,3 +13,8 @@
 .totalPrice {
      text-align: right;
 }
+@media (max-width: 768px) {
+     .unorderedList li {
+          font-size: 10px;
+     }
+}
