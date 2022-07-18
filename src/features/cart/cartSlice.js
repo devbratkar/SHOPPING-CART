@@ -50,4 +50,4 @@ const cartSlice = createSlice({
 
 export const { clearCart, removeItem, increase, decrease, updateTotal, openPaymentGateway, payment} = cartSlice.actions
 
-export default cartSlice.reducer
+export default cartSlice.reducer   // CART REDUCER EXPORT

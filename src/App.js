@@ -8,6 +8,8 @@ import { useSelector } from 'react-redux'
 
 const App = () => {
   const {paymentRoute} = useSelector(store=> store.cart)
+  // const {initialText,age} = useSelector(store=> store.text)
+  // console.log(initialText,age);
 
   return (
     <Routes>
